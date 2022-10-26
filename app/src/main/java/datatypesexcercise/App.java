@@ -3,8 +3,12 @@ package datatypesexcercise;
 public class App {
     public static void main(String[] args) {
         MinorOrNot check = new MinorOrNot();
-        IntSwitch intCheck = new IntSwitch();
+        IntSwitch intSwitch = new IntSwitch();
+        BRLToSEK convert = new BRLToSEK();
         //check.CheckIfMinorOrNot();
-        intCheck.IntSwitch();
-    }
+        
+        //intSwitch.SwitchInts();
+        
+        convert.ConvertBRLToSEK();
+    }  
 }

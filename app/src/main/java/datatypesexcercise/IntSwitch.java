@@ -2,7 +2,7 @@ package datatypesexcercise;
 
 public class IntSwitch {
 
-    public void IntSwitch(){
+    public void SwitchInts(){
         int a = 10;
         int b = 20;
 

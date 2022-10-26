@@ -10,6 +10,7 @@ public class MinorOrNot {
         System.out.println("What is your age?");
 
         age = input.nextInt();
+        input.close();
 
         if (age >= 18) 
         {
@@ -19,7 +20,7 @@ public class MinorOrNot {
         {
             System.out.println("The user is a minor");
         }
-        input.close();
+        
     }
     
 }
