@@ -2,6 +2,8 @@ package datatypesexcercise;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        MinorOrNot check = new MinorOrNot();
+
+        check.CheckIfMinorOrNot();
     }
 }
