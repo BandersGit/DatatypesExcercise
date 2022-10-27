@@ -7,6 +7,7 @@ public class App {
         BRLToSEK convert = new BRLToSEK();
         RandomMath calc = new RandomMath();
         TempConvert convertTemp = new TempConvert();
+        StoreRebate calcNewPrice = new StoreRebate();
 
         //check.CheckIfMinorOrNot();
         
@@ -16,6 +17,8 @@ public class App {
 
         //calc.CalculateNumbers();
 
-        convertTemp.ConvertTemp();
+        //convertTemp.ConvertTemp();
+
+        calcNewPrice.CalcRebate();
     }  
 }
