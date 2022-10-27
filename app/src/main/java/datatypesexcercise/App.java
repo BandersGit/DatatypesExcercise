@@ -6,6 +6,8 @@ public class App {
         IntSwitch intSwitch = new IntSwitch();
         BRLToSEK convert = new BRLToSEK();
         RandomMath calc = new RandomMath();
+        TempConvert convertTemp = new TempConvert();
+
         //check.CheckIfMinorOrNot();
         
         //intSwitch.SwitchInts();
@@ -13,5 +15,7 @@ public class App {
         //convert.ConvertBRLToSEK();
 
         //calc.CalculateNumbers();
+
+        convertTemp.ConvertTemp();
     }  
 }
