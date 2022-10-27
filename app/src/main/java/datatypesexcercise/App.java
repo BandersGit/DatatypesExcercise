@@ -5,10 +5,13 @@ public class App {
         MinorOrNot check = new MinorOrNot();
         IntSwitch intSwitch = new IntSwitch();
         BRLToSEK convert = new BRLToSEK();
+        RandomMath calc = new RandomMath();
         //check.CheckIfMinorOrNot();
         
         //intSwitch.SwitchInts();
         
-        convert.ConvertBRLToSEK();
+        //convert.ConvertBRLToSEK();
+
+        //calc.CalculateNumbers();
     }  
 }
