@@ -8,7 +8,7 @@ public class App {
         RandomMath calc = new RandomMath();
         TempConvert convertTemp = new TempConvert();
         StoreRebate calcNewPrice = new StoreRebate();
-
+                                                            //Cant be run all at once, the scanners break eachother
         //check.CheckIfMinorOrNot();
         
         //intSwitch.SwitchInts();
@@ -19,6 +19,6 @@ public class App {
 
         //convertTemp.ConvertTemp();
 
-        calcNewPrice.CalcRebate();
+        //calcNewPrice.CalcRebate();
     }  
 }
