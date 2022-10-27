@@ -17,6 +17,6 @@ public class TempConvert {
 
         f = (c * 9/5) + 32;
 
-        System.out.println(c + " Celsius is " + f +" Farenheit");
+        System.out.println(c + " Degrees celsius is " + f +" degrees farenheit");
     }
 }
